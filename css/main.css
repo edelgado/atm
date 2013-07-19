@@ -60,7 +60,60 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+/*   background-color: #a280aa; */
+}
 
+div.container {
+  width: 600px;
+  height: 400px;
+  margin: 10px auto;
+  background-color: #a280aa;
+}
+
+div.test {
+  position: relative;
+  left: 150px;
+  top: 100px;
+  width: 300px;
+  height: 200px;
+  background-color: #d5c1e8;
+}
+
+div.panel {
+  width: 360px;
+  height: 325px;
+  margin: 0px auto;
+  background-color: #f1f0e7;
+  border-top: 5px solid #bebebe;
+}
+
+div.sign {
+  position: relative;
+  margin: 0px auto;
+  width: 400px;
+  background-color: #136cae;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+}
+
+div.sign img.banner {
+  display: block;
+  margin: 0px auto;
+  width: 298px;
+  height: 122px;
+  padding: 10px 0px;
+}
+
+div.sign img.graffiti {
+  position: absolute;
+  top: 25px;
+  left: 180px;
+  width: 207px;
+  height: 63px;
+}
 
 
 
