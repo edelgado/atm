@@ -205,9 +205,29 @@ div.key {
   cursor: pointer;
 }
 
+div.ln {
+  position: absolute;
+  width: 8px;
+  height: 2px;
+  background-color: #9b9b9b;
+}
+
+div.ln.l {
+  border-right: 2px solid #aeaeae;
+}
+
+div.ln.r {
+  border-left: 2px solid #aeaeae;
+}
+
 div.key#key-a {
   top: 90px;
   left: 15px;
+}
+
+div.ln#ln-a {
+  top: 100px;
+  left: 45px;
 }
 
 div.key#key-b {
@@ -215,9 +235,19 @@ div.key#key-b {
   left: 15px;
 }
 
+div.ln#ln-b {
+  top: 130px;
+  left: 45px;
+}
+
 div.key#key-c {
   top: 150px;
   left: 15px;
+}
+
+div.ln#ln-c {
+  top: 160px;
+  left: 45px;
 }
 
 div.key#key-d {
@@ -225,9 +255,19 @@ div.key#key-d {
   left: 15px;
 }
 
+div.ln#ln-d {
+  top: 190px;
+  left: 45px;
+}
+
 div.key#key-e {
   top: 90px;
   left: 315px;
+}
+
+div.ln#ln-e {
+  top: 100px;
+  left: 305px;
 }
 
 div.key#key-f {
@@ -235,14 +275,29 @@ div.key#key-f {
   left: 315px;
 }
 
+div.ln#ln-f {
+  top: 130px;
+  left: 305px;
+}
+
 div.key#key-g {
   top: 150px;
   left: 315px;
 }
 
+div.ln#ln-g {
+  top: 160px;
+  left: 305px;
+}
+
 div.key#key-h {
   top: 180px;
   left: 315px;
+}
+
+div.ln#ln-h {
+  top: 190px;
+  left: 305px;
 }
 
 
