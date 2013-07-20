@@ -61,14 +61,16 @@ textarea {
    ========================================================================== */
 
 body {
-/*   background-color: #a280aa; */
+  background-color: #a280aa;
 }
 
 div.container {
   width: 600px;
-  height: 400px;
-  margin: 10px auto;
+  height: 500px;
+  margin: 0px auto;
   background-color: #a280aa;
+  position: relative;
+  padding-top: 65px;
 }
 
 span.cc {
@@ -122,16 +124,6 @@ div.ccs {
   margin: 5px auto;
   width: 240px;
   height: 20px;
-}
-
-
-div.test {
-  position: relative;
-  left: 150px;
-  top: 100px;
-  width: 300px;
-  height: 200px;
-  background-color: #d5c1e8;
 }
 
 div.panel {
