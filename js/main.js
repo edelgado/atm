@@ -17,22 +17,22 @@ var ccView5 = new CCView({model: cc5, el: $('#cc5')});
 var ccView6 = new CCView({model: cc6, el: $('#cc6')});
 
 /* Create ATM buttons */
-var btn1 = new MenuButton({enabled: 'yes', slot: 'a'});
-var btn2 = new MenuButton({enabled: 'yes', slot: 'b'});
-var btn3 = new MenuButton({enabled: 'yes', slot: 'c'});
-var btn4 = new MenuButton({enabled: 'yes', slot: 'd'});
-var btn5 = new MenuButton({enabled: 'yes', slot: 'e'});
-var btn6 = new MenuButton({enabled: 'yes', slot: 'f'});
-var btn7 = new MenuButton({enabled: 'yes', slot: 'g'});
-var btn8 = new MenuButton({enabled: 'yes', slot: 'h'});
-var btnView1 = new ATMButtonView({model: btn1, el: $('#btn1')});
-var btnView2 = new ATMButtonView({model: btn2, el: $('#btn2')});
-var btnView3 = new ATMButtonView({model: btn3, el: $('#btn3')});
-var btnView4 = new ATMButtonView({model: btn4, el: $('#btn4')});
-var btnView5 = new ATMButtonView({model: btn5, el: $('#btn5')});
-var btnView6 = new ATMButtonView({model: btn6, el: $('#btn6')});
-var btnView7 = new ATMButtonView({model: btn7, el: $('#btn7')});
-var btnView8 = new ATMButtonView({model: btn8, el: $('#btn8')});
+var btn1 = new MenuButton({purpose: 'pin', slot: 1});
+var btn2 = new MenuButton({purpose: 'pin', slot: 2});
+var btn3 = new MenuButton({purpose: 'pin', slot: 3});
+var btn4 = new MenuButton({purpose: 'pin', slot: 4});
+var btn5 = new MenuButton({purpose: 'pin', slot: 5});
+var btn6 = new MenuButton({purpose: 'pin', slot: 6});
+var btn7 = new MenuButton({purpose: 'pin', slot: 7});
+var btn8 = new MenuButton({purpose: 'pin', slot: 8});
+var btnView1 = new ATMButtonView({model: btn1, el: $('.panel')});
+var btnView2 = new ATMButtonView({model: btn2, el: $('.panel')});
+var btnView3 = new ATMButtonView({model: btn3, el: $('.panel')});
+var btnView4 = new ATMButtonView({model: btn4, el: $('.panel')});
+var btnView5 = new ATMButtonView({model: btn5, el: $('.panel')});
+var btnView6 = new ATMButtonView({model: btn6, el: $('.panel')});
+var btnView7 = new ATMButtonView({model: btn7, el: $('.panel')});
+var btnView8 = new ATMButtonView({model: btn8, el: $('.panel')});
 
 /*
 var op1 = new MenuOption({
