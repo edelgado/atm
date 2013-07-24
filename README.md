@@ -12,7 +12,7 @@ Cool Things to Try in the Console
 * `atm.withdraw(50);`
 * `atm.getBamance();`
 * `atm.deposit(100);`
-* `atm.showBalance()`
+* `atm.showBalance();`
 
 Next Steps
 ----------
