@@ -5,10 +5,9 @@ Uses
 ----
 * HTML5 Bolerplate
 * jQuery
+* Javascript "Module Export" pattern for the logic.
 
 Next Steps
 ----------
-- [ ] Use Backbone for Models and Views.
-- [ ] Refactor duplicated HTML, by using Backbone collections.
-- [ ] Conventience methods to toggle credit cards: `currentCard(ccModel);`
+- [ ] Use Backbone.js (see `experiment` branch) for overall improvements (DRY code, Templates, Views, Models, etc).
 
