@@ -76,13 +76,13 @@ div.container {
 span.cc {
   display: block;
   background-image: url(../img/creditcard_sprite.png);
-  background-position-y: 20px;
   width: 30px;
   height: 20px;
   float: left;
   
 }
 
+/* Firefox doesn't support -x and -y, boo!
 span.cc.active {
   background-position-y: 0px;
 }
@@ -90,33 +90,59 @@ span.cc.active {
 span.cc.muted {
   background-position-y: 20px;
 }
+*/
 
 span.cc.star {
-  background-position-x: 0px;
+  background-position: 0px 20px;
+}
+
+span.cc.star.active {
+  background-position: 0px 0px;
 }
 
 span.cc.pulse {
-  background-position-x: -30px;
+  background-position: -30px 20px;
   width: 56px;
 }
 
+span.cc.pulse.active {
+  background-position: -30px 0px;
+}
+
 span.cc.maestro {
-  background-position-x: -85px;
+  background-position: -85px 20px;
   width: 38px;
 }
 
+span.cc.maestro.active {
+  background-position: -85px 0px;
+}
+
 span.cc.mastercard {
-  background-position-x: -125px;
+  background-position: -125px 20px;
   width: 40px;
+}
+
+span.cc.mastercard.acive {
+  background-position: -125px 0px;
 }
 
 span.cc.plus {
-  background-position-x: -165px;
+  background-position: -165px 20px;
   width: 40px;
 }
 
+span.cc.plus.active {
+  background-position: -165px 0px;
+}
+
 span.cc.visa {
-  background-position-x: -204px;
+  background-position: -204px 20px;
+  width: 33px;
+}
+
+span.cc.visa.active {
+  background-position: -204px 0px;
   width: 33px;
 }
 
